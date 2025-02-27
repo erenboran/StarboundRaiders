@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198a2a9b809b8814aab0692992c423c7, type: 3}
+  m_Name: Vardion
+  m_EditorClassIdentifier: 
+  shipName: Vardion
+  price: 300
+  isUnlocked: 0
+  shipDamage: 8
+  shipHealth: 125
+  shipFireRate: 6
+  shipSprite: {fileID: 21300000, guid: 9ee9418d1bc58ae428518b1707d8a166, type: 3}
+  shipPrefab: {fileID: 3608251992707436819, guid: ad5b65d6ce8f977419d10018596b91a4,
+    type: 3}

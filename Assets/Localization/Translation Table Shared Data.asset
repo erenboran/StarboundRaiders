@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Translation Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Translation Table
+  m_TableCollectionNameGuidString: cce6842bebbe27043aa6211c1bf77400
+  m_Entries:
+  - m_Id: 58799009792
+    m_Key: playAsGuest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1132196900864
+    m_Key: playLogin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175980408187498496
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3969546548285800472
+  references:
+    version: 2
+    RefIds:
+    - rid: 3969546548285800472
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1698356255184

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198a2a9b809b8814aab0692992c423c7, type: 3}
+  m_Name: Zelvin
+  m_EditorClassIdentifier: 
+  shipName: Zelvin
+  price: 650
+  isUnlocked: 0
+  shipDamage: 9
+  shipHealth: 125
+  shipFireRate: 5
+  shipSprite: {fileID: 21300000, guid: b67b1f17e059ab547af8d36ca4d5bbc4, type: 3}
+  shipPrefab: {fileID: 3608251992707436819, guid: 86b135c1857ee904b933fb314f698cdb,
+    type: 3}

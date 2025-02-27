@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class BurnBonus : MonoBehaviour
+{
+    public float duration = 10f;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PlayerShooting playerShooting = other.GetComponent<PlayerShooting>();
+
+            if (playerShooting != null)
+            {
+                playerShooting.ActivateBurnBonus(duration);
+            }
+
+            Destroy(gameObject);
+        }
+    }
+}
