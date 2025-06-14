@@ -38,7 +38,7 @@ Sonsuz uzayda en uzun süre hayatta kal, en yüksek skoru yakala ve liderlik tab
 - 🖌️ **Blender & Photoshop** – Modelleme ve arayüz tasarımı  
 - 🔊 **FMOD / AudioManager** – Dinamik ses ve müzik sistemi  
 - ⚡ **DOTween** – UI ve animasyonlar  
-
+- PlayerPrefs save sistemi 
 ---
 
 ## 🔧 Kurulum & Başlangıç
