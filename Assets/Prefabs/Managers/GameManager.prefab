@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2055534732882998948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 716210742943614664}
+  - component: {fileID: 7789378785237595981}
+  - component: {fileID: 3574049069214698764}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &716210742943614664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055534732882998948}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.23460841, y: 0.024277857, z: 151.1107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7789378785237595981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055534732882998948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c30e089a10e1d438b38b8e35c99f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  coins: 0
+  highScore: 0
+  scoreText: {fileID: 0}
+  coinText: {fileID: 0}
+  highScoreText: {fileID: 0}
+--- !u!114 &3574049069214698764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055534732882998948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7352bd4b7536494ea439db64fff7ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableShips:
+  - {fileID: 11400000, guid: 734448bae4c63e243b462cbb88d2e09b, type: 2}
+  - {fileID: 11400000, guid: 24636ffee37b12a479c42ebae95ca19d, type: 2}
+  - {fileID: 11400000, guid: ea70d9068ee6f6b4bb92181e5d9a8c56, type: 2}
+  - {fileID: 11400000, guid: cfd71896a7989074281744bf990c1aec, type: 2}
+  - {fileID: 11400000, guid: dd844cae76ce8954e947ab8fcbcb39fa, type: 2}
+  - {fileID: 11400000, guid: 6301e9f835b938a4eb4f734402ff926c, type: 2}
+  shipSlots: {fileID: 0}
+  shipButtonPrefab: {fileID: 8130359930673253095, guid: 7f2388b3255495349b5f3cc684d30c63,
+    type: 3}
+  coinText: {fileID: 0}

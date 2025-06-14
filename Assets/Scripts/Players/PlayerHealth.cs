@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     private float currentHealth;
 
     public Image healthBar; // UI'deki can barı
+    public ParticleSystem damageParticleEffect; // Hasar aldığında çalışacak particle effect
 
     void Start()
     {
@@ -23,6 +24,11 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
         UpdateHealthBar();
+        // Particle effect'i çalıştır
+        if (damageParticleEffect != null)
+        {
+            damageParticleEffect.Play();
+        }
 
         if (currentHealth <= 0)
         {
