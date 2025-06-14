@@ -1,33 +1,48 @@
 # 🚀 Starbound Raiders  
-🌌 **Starbound Raiders**, uzayın derinliklerinde geçen, hızlı tempolu bir **roguelike uzay savaşı** oyunudur. Oyuncular, galaksiyi keşfederken düşman gemilerle savaşır, yeni uzay gemileri satın alır ve çeşitli yükseltmeler yaparak güçlenir.
+
+🌌 **Starbound Raiders**, yıldızlararası kaosun içinde geçen, tempolu ve bağımlılık yaratan bir **roguelike uzay savaşı** oyunudur. Uzayın derinliklerinde ilerlerken düşmanlarla çatış, gemini geliştir ve sonsuzluğa meydan oku!  
+
+🎥 **Hızlı Bakış (Video):**  
+[![Watch the demo](https://img.youtube.com/vi/UAbx7ntrH0E/0.jpg)](https://youtube.com/shorts/UAbx7ntrH0E)
 
 ---
 
-## 🎮 **Oyun Mekanikleri**  
-🔹 **Otomatik İlerleyen Uzay Gemisi:** Geminiz durmaksızın yol alırken, düşman saldırılarından kaçının veya yok edin!  
-🔹 **Swipe ve Atış Mekanikleri:** Parmağınızı kaydırarak engelleri aşın ve düşmanları yok etmek için ateş edin!  
-🔹 **Shop & Upgrade Sistemi:** Yeni gemiler satın alın, mevcut geminizi geliştirin!  
-🔹 **Roguelike Dinamikleri:** Öldüğünüzde oyun sıfırlanır ancak topladığınız paralarla daha güçlü başlayabilirsiniz!  
-🔹 **Yüksek Skor Sistemi:** En yüksek puanı elde etmek için en uzun süre hayatta kalmaya çalışın!  
+## 🎮 Oynanış Özellikleri
+
+🔹 **Otomatik İlerleyen Uzay Gemisi**  
+Geminiz kendi rotasında ilerlerken, siz reflekslerinizi konuşturun! Kaçın, ateş edin, hayatta kalın.
+
+🔹 **Swipe & Atış Kontrolleri**  
+Ekranı kaydırarak engelleri aş, dokunarak düşmanları yok et. Basit ama bağımlılık yapan kontroller!
+
+🔹 **Mağaza & Yükseltme Sistemi**  
+Yeni gemiler satın alın, mevcut geminizi geliştirerek savaşta avantaj kazanın.
+
+🔹 **Roguelike Mekanikler**  
+Her ölüm, yeni bir başlangıç. Topladığınız paralar kalıcı, böylece her denemede daha güçlü oluyorsunuz!
+
+🔹 **Skor Tabanlı Rekabet**  
+Sonsuz uzayda en uzun süre hayatta kal, en yüksek skoru yakala ve liderlik tablosuna adını yazdır!
 
 ---
 
-## 📸 **Ekran Görüntüleri**  
-🚀 **Görseller eklenecek...**  
+## 📸 Ekran Görüntüleri  
+🚀 Çok yakında paylaşılacak!
 
 ---
 
-## 🛠️ **Teknolojiler & Araçlar**  
-- 🎮 **Unity** (Oyun Motoru)  
-- 🖥️ **C#** (Kodlama Dili)  
-- 🎨 **Blender & Photoshop** (Modelleme ve UI Tasarımı)  
-- 🎵 **FMOD / AudioManager** (Ses ve Müzik Yönetimi)  
-- ⚡ **DOTween** (Animasyonlar ve UI Efektleri)  
+## 🛠️ Kullanılan Teknolojiler
+
+- 🎮 **Unity** – Oyun motoru  
+- 💻 **C#** – Oyun kodlaması  
+- 🖌️ **Blender & Photoshop** – Modelleme ve arayüz tasarımı  
+- 🔊 **FMOD / AudioManager** – Dinamik ses ve müzik sistemi  
+- ⚡ **DOTween** – UI ve animasyonlar  
 
 ---
 
-## 🔧 **Kurulum & Oynama**  
-1️⃣ **Projeyi klonlayın:**  
-```sh
+## 🔧 Kurulum & Başlangıç
+
+1. Bu projeyi kendi cihazına klonla:  
+```bash
 git clone https://github.com/kullaniciadi/StarboundRaiders.git
-  
